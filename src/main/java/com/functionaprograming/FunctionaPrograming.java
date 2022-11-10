@@ -13,5 +13,7 @@ public class FunctionaPrograming {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        Runnable t=()-> System.out.println("hello akash");
+        t.run();
     }
 }
